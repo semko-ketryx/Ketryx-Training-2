@@ -1,3 +1,3 @@
-# Ketryx-Demo
+# Ketryx-Training
 
 Copyright Ketryx
