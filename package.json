@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
-    "test:ci": "JEST_JUNIT_OUTPUT_DIR=test-results JEST_JUNIT_OUTPUT_NAME=junit.xml jest --watchAll=false --testResultsProcessor=\"jest-junit\""
+    "test:unit-integration-ci": "JEST_JUNIT_OUTPUT_DIR=test-results JEST_JUNIT_OUTPUT_NAME=junit.xml jest --watchAll=false --testResultsProcessor=\"jest-junit\""
   },
   "dependencies": {
     "@cucumber/cucumber": "^9.5.1",
