@@ -8,7 +8,7 @@ env:
       (github.event_name == 'push' || github.event_name == 'workflow_dispatch') &&
       (
         github.ref == 'refs/heads/main'||
-        github.ref == 'refs/heads/production' ||
+        github.ref == 'refs/heads/production'
       )
     }}
 on:
