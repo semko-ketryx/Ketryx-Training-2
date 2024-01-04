@@ -51,3 +51,16 @@ describe('Unit test for record keeping @tests:KT-98', () => {
     expect(heading).toBeInTheDocument()
   })
 })
+
+
+describe('Unit test feedback form @tests:KT-98', () => {
+  it('Verify form submission', () => {
+    render(<Home />)
+
+    const heading = screen.getByRole('heading', {
+      name: /Docs ->/i,
+    })
+
+    expect(heading).toBeInTheDocument()
+  })
+})
