@@ -49,7 +49,7 @@ jobs:
           ketryx-url: ${{ secrets.KETRYX_URL }}
           project: ${{ secrets.KETRYX_PROJECT }}
           api-key: ${{ secrets.KETRYX_API_KEY }}
-          version: KXVSN39TM9PBF0M8NJSDHJ4ZK8M2V1H
+          version: KXVSN03RC1KMKHC8YMSQ0K0WFE6ZNEZ
           build-name: ci
           test-junit-path: test-results/junit.xml
 
