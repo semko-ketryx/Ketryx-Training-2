@@ -33,7 +33,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install
       - name: Run unit and integration tests
-        run: yarn test:unit-integration-ci --ci
+        run: npm run test:unit-integration-ci
       - name: Upload test results
         uses: actions/upload-artifact@v3
         if: success() || failure()
