@@ -17,7 +17,7 @@ describe('Home @tests:KDG-1', () => {
 })
 
 describe('Home @tests:KDG-2', () => {
-  it('renders a better heading', () => {
+  it('renders the best heading', () => {
     render(<Home />)
 
     const heading = screen.getByRole('heading', {
