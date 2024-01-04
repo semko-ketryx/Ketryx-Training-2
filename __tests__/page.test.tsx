@@ -15,3 +15,15 @@ describe('Home @tests:KDG-1', () => {
     expect(heading).toBeInTheDocument()
   })
 })
+
+describe('Home @tests:KDG-2', () => {
+  it('renders a better heading', () => {
+    render(<Home />)
+
+    const heading = screen.getByRole('heading', {
+      name: /Docs ->/i,
+    })
+
+    expect(heading).toBeInTheDocument()
+  })
+})
