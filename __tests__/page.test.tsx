@@ -4,8 +4,20 @@
 import { render, screen } from '@testing-library/react'
 import Home from '@/app/page'
 
-describe('Test insulin dose UI @tests:KT-68', () => {
-  it('renders a heading', () => {
+describe('Test insulin delivery status UI on iOS @tests:KT-68', () => {
+  it('Transition state and keep status', () => {
+    render(<Home />)
+
+    const heading = screen.getByRole('heading', {
+      name: /Docs ->/i,
+    })
+
+    expect(heading).toBeInTheDocument()
+  })
+})
+
+describe('Test insulin delivery status UI on Android @tests:KT-66', () => {
+  it('Transition state and keep status', () => {
     render(<Home />)
 
     const heading = screen.getByRole('heading', {
@@ -18,6 +30,18 @@ describe('Test insulin dose UI @tests:KT-68', () => {
 
 describe('Unit test for iOS Client @tests:KT-2', () => {
   it('renders the best heading', () => {
+    render(<Home />)
+
+    const heading = screen.getByRole('heading', {
+      name: /Docs ->/i,
+    })
+
+    expect(heading).toBeInTheDocument()
+  })
+})
+
+describe('Unit test for record keeping @tests:KT-98', () => {
+  it('Verify create and archive record feature', () => {
     render(<Home />)
 
     const heading = screen.getByRole('heading', {
