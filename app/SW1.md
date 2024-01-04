@@ -2,7 +2,7 @@
 itemId: sw-1
 itemType: Software Item Spec
 itemFulfills: rq-1
-itemIntroducesRisk: KD-56, KD-54, KD-53
+itemIntroducesRisk: KT-56, KT-54, KT-53
 ---
 
 # Android Client (Patient App)
