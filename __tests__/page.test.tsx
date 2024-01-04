@@ -16,7 +16,7 @@ describe('Home @tests:KDG-1', () => {
   })
 })
 
-describe('Home @tests:KDG-2', () => {
+describe('Home @tests:KDG-3', () => {
   it('renders the best heading', () => {
     render(<Home />)
 
