@@ -4,7 +4,7 @@
 import { render, screen } from '@testing-library/react'
 import Home from '@/app/page'
 
-describe('Home @tests:KT-68', () => {
+describe('Test insulin dose UI @tests:KT-68', () => {
   it('renders a heading', () => {
     render(<Home />)
 
@@ -16,7 +16,7 @@ describe('Home @tests:KT-68', () => {
   })
 })
 
-describe('Home @tests:KT-2', () => {
+describe('Unit test for iOS Client @tests:KT-2', () => {
   it('renders the best heading', () => {
     render(<Home />)
 
