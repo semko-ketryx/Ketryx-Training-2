@@ -78,7 +78,7 @@ describe('Unit test bluetooth connectivity @tests:KT-3', () => {
 })
 
 describe('Unit test Android Client (Patient App) @tests:KXITM7VNAYPPX2686NT493MKDMZRNWZ', () => {
-  it('Verify App Opens', () => {
+  it('Verify App Opens/Closes', () => {
     render(<Home />)
 
     const heading = screen.getByRole('heading', {
