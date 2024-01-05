@@ -66,7 +66,7 @@ describe('Unit test feedback form @tests:KT-30', () => {
 })
 
 describe('Unit test bluetooth connectivity @tests:KT-3', () => {
-  it('Connect and verify data transfer', () => {
+  it('Connect and verify the data transfer', () => {
     render(<Home />)
 
     const heading = screen.getByRole('heading', {
