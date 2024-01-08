@@ -65,7 +65,8 @@ describe('Unit test feedback form @tests:KT-30', () => {
   })
 })
 
-describe('Unit test bluetooth connectivity @tests:KT-3', () => {
+
+describe('Unit test bluetooth connectivity @tests:KT-69', () => {
   it('Connect and verify the data transfer', () => {
     render(<Home />)
 
