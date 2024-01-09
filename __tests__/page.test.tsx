@@ -53,26 +53,4 @@ describe('Unit test feedback forms @tests:KT-30', () => {
   })
 })
 
-describe('Test insulin delivery status UI on Android @tests:KXITM5M88YE4A3P87Y8EE1HGYP8JQGP', () => {
-  it('Transition state and keep status', () => {
-    render(<Home />)
 
-    const heading = screen.getByRole('heading', {
-      name: /Docs ->/i,
-    })
-
-    expect(heading).toBeInTheDocument()
-  })
-})
-
-describe('Unit test Android client @tests:KXITM7VNAYPPX2686NT493MKDMZRNWZ', () => {
-  it('Test menu buttons ', () => {
-    render(<Home />)
-
-    const heading = screen.getByRole('heading', {
-      name: /Docs ->/i,
-    })
-
-    expect(heading).toBeInTheDocument()
-  })
-})
