@@ -1,7 +1,7 @@
 ---
 itemId: tc-1
 itemType: Test Case
-itemTests: KXITM7VNAYPPX2686NT493MKDMZRNWZ
+itemTests: sw-1
 ---
 
 # Test infusion limitations
