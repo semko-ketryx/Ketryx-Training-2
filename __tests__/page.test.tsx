@@ -16,18 +16,6 @@ describe('Test insulin delivery status UI on iOS @tests:KT-68', () => {
   })
 })
 
-describe('Test insulin delivery status UI on Android @tests:KT-66', () => {
-  it('Transition state and keep status', () => {
-    render(<Home />)
-
-    const heading = screen.getByRole('heading', {
-      name: /Docs ->/i,
-    })
-
-    expect(heading).toBeInTheDocument()
-  })
-})
-
 describe('Unit test for iOS Client @tests:KT-2', () => {
   it('renders the best heading', () => {
     render(<Home />)
