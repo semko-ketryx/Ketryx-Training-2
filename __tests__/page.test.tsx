@@ -65,7 +65,7 @@ describe('Test insulin delivery status UI on Android @tests:KXITM5M88YE4A3P87Y8E
   })
 })
 
-describe('Unit test Android client @tests:KXITM7VNAYPPX2686NT493MKDMZRNWZ', () => {
+describe('Unit test Android client @tests:"KXITM7VNAYPPX268" "6NT493MKDMZRNWZ"', () => {
   it('Test menu buttons ', () => {
     render(<Home />)
 
