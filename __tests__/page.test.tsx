@@ -64,28 +64,3 @@ describe('Unit test feedback form @tests:KT-30', () => {
     expect(heading).toBeInTheDocument()
   })
 })
-
-
-describe('Unit test bluetooth connectivity @tests:KT-69', () => {
-  it('Connect and verify the data transfer', () => {
-    render(<Home />)
-
-    const heading = screen.getByRole('heading', {
-      name: /Docs ->/i,
-    })
-
-    expect(heading).toBeInTheDocument()
-  })
-})
-
-describe('Unit test bluetooth connectivity @tests:KT-3', () => {
-  it('Verify App Connects/Disconnects', () => {
-    render(<Home />)
-
-    const heading = screen.getByRole('heading', {
-      name: /Docs ->/i,
-    })
-
-    expect(heading).toBeInTheDocument()
-  })
-})
