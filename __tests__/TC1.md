@@ -16,4 +16,4 @@ This test is to ensure that attempts to deliver more than the defined maximum in
 
 ## Expected behavior
 
-Insulin dose is not administered, and an error/warning message appears in the application telling users the maximum defined dosage.
+Insulin dose is not administered, and an error/warning message appears in the application telling users the maximum defined dosage
