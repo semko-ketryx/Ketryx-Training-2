@@ -4,7 +4,7 @@
 import { render, screen } from '@testing-library/react'
 import Home from '@/app/page'
 
-describe('Test insulin delivery status UI on iOS @tests:KT-68', () => {
+describe('Test insulin delivery status UI on iOS @tests:KD-66', () => {
   it('Transition state and keep status', () => {
     render(<Home />)
 
@@ -16,7 +16,7 @@ describe('Test insulin delivery status UI on iOS @tests:KT-68', () => {
   })
 })
 
-describe('Unit test for iOS Client @tests:KT-2', () => {
+describe('Unit test for infusion limitations @tests:51TZVQ', () => {
   it('renders the best heading', () => {
     render(<Home />)
 
@@ -28,7 +28,7 @@ describe('Unit test for iOS Client @tests:KT-2', () => {
   })
 })
 
-describe('Unit test for record keeping @tests:KT-98', () => {
+describe('Unit test for record keeping @tests:KD-98', () => {
   it('Verify create and archive record feature', () => {
     render(<Home />)
 
@@ -41,7 +41,7 @@ describe('Unit test for record keeping @tests:KT-98', () => {
 })
 
 
-describe('Unit test feedback forms @tests:KT-30', () => {
+describe('Unit test feedback forms @tests:KD-72', () => {
   it('Verify form submission', () => {
     render(<Home />)
 
@@ -53,7 +53,7 @@ describe('Unit test feedback forms @tests:KT-30', () => {
   })
 })
 
-describe('Unit test feedback forms @tests:KD-14', () => {
+describe('Unit test feedback forms @tests:KD-30', () => {
   it('Verify form submission', () => {
     render(<Home />)
 
