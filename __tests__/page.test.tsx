@@ -4,7 +4,7 @@
 import { render, screen } from '@testing-library/react'
 import Home from '@/app/page'
 
-describe('Test insulin delivery status UI on iOS @tests:KD-66', () => {
+describe('Test insulin delivery status UI @tests:KD-66', () => {
   it('Transition state and keep status', () => {
     render(<Home />)
 
