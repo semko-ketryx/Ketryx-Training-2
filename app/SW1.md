@@ -2,6 +2,7 @@
 itemId: sw-1
 itemType: Software Item Spec
 itemFulfills: rq-1
+itemUses: KD-31
 ---
 
 # Android Client (Patient App)
